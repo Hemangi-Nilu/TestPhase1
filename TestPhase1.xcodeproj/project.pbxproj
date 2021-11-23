@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18467CF8271E954800775EC4 /* tabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18467CF7271E954800775EC4 /* tabBarViewController.swift */; };
 		1861D5A52715932800A540A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861D5A42715932800A540A8 /* AppDelegate.swift */; };
 		1861D5A72715932800A540A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861D5A62715932800A540A8 /* SceneDelegate.swift */; };
 		1861D5A92715932800A540A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861D5A82715932800A540A8 /* ViewController.swift */; };
@@ -15,6 +16,12 @@
 		1861D5B12715932800A540A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1861D5AF2715932800A540A8 /* LaunchScreen.storyboard */; };
 		1861D5BC2715932900A540A8 /* TestPhase1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861D5BB2715932900A540A8 /* TestPhase1Tests.swift */; };
 		1861D5C72715932900A540A8 /* TestPhase1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861D5C62715932900A540A8 /* TestPhase1UITests.swift */; };
+		1861D5DF2715A5B500A540A8 /* SearchImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861D5DE2715A5B500A540A8 /* SearchImageViewController.swift */; };
+		1861D5E42715A5C900A540A8 /* RandomImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861D5E32715A5C900A540A8 /* RandomImageViewController.swift */; };
+		AD34720227200CFE00513811 /* RandomPushController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34720127200CFE00513811 /* RandomPushController.swift */; };
+		AD438AD427228BA1008677B9 /* pushImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD438AD327228BA1008677B9 /* pushImageController.swift */; };
+		AD54160B273D42460095C31A /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54160A273D42460095C31A /* ButtonViewController.swift */; };
+		ADC608CF27281E0500FCCD2A /* studentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC608CE27281E0500FCCD2A /* studentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18467CF7271E954800775EC4 /* tabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarViewController.swift; sourceTree = "<group>"; };
 		1861D5A12715932800A540A8 /* TestPhase1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPhase1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1861D5A42715932800A540A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1861D5A62715932800A540A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,12 @@
 		1861D5C22715932900A540A8 /* TestPhase1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPhase1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1861D5C62715932900A540A8 /* TestPhase1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPhase1UITests.swift; sourceTree = "<group>"; };
 		1861D5C82715932900A540A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1861D5DE2715A5B500A540A8 /* SearchImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchImageViewController.swift; sourceTree = "<group>"; };
+		1861D5E32715A5C900A540A8 /* RandomImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageViewController.swift; sourceTree = "<group>"; };
+		AD34720127200CFE00513811 /* RandomPushController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPushController.swift; sourceTree = "<group>"; };
+		AD438AD327228BA1008677B9 /* pushImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pushImageController.swift; sourceTree = "<group>"; };
+		AD54160A273D42460095C31A /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		ADC608CE27281E0500FCCD2A /* studentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,13 @@
 				1861D5AD2715932800A540A8 /* Assets.xcassets */,
 				1861D5AF2715932800A540A8 /* LaunchScreen.storyboard */,
 				1861D5B22715932800A540A8 /* Info.plist */,
+				1861D5DE2715A5B500A540A8 /* SearchImageViewController.swift */,
+				1861D5E32715A5C900A540A8 /* RandomImageViewController.swift */,
+				18467CF7271E954800775EC4 /* tabBarViewController.swift */,
+				AD34720127200CFE00513811 /* RandomPushController.swift */,
+				AD438AD327228BA1008677B9 /* pushImageController.swift */,
+				ADC608CE27281E0500FCCD2A /* studentController.swift */,
+				AD54160A273D42460095C31A /* ButtonViewController.swift */,
 			);
 			path = TestPhase1;
 			sourceTree = "<group>";
@@ -259,8 +280,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1861D5A92715932800A540A8 /* ViewController.swift in Sources */,
+				AD438AD427228BA1008677B9 /* pushImageController.swift in Sources */,
 				1861D5A52715932800A540A8 /* AppDelegate.swift in Sources */,
+				ADC608CF27281E0500FCCD2A /* studentController.swift in Sources */,
+				AD34720227200CFE00513811 /* RandomPushController.swift in Sources */,
+				1861D5DF2715A5B500A540A8 /* SearchImageViewController.swift in Sources */,
+				18467CF8271E954800775EC4 /* tabBarViewController.swift in Sources */,
 				1861D5A72715932800A540A8 /* SceneDelegate.swift in Sources */,
+				AD54160B273D42460095C31A /* ButtonViewController.swift in Sources */,
+				1861D5E42715A5C900A540A8 /* RandomImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
